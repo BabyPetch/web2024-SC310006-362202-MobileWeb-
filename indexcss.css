@@ -1,6 +1,6 @@
         body {
-            background-color: #000; /* สีพื้นหลังดำ */
-            color: #fff; /* ตัวหนังสือสีขาว */
+            background-color: #000;
+            color: #fff;
             font-family: 'Arial', sans-serif;
             text-align: center;
             margin: 0;
@@ -8,9 +8,9 @@
         }
         h1 {
             font-size: 2.5em;
-            color: #ff0000; /* สีแดง */
+            color: #ff0000;
             margin: 20px 0;
-            text-shadow: 2px 2px 5px #008000; /* เงาสีเขียว */
+            text-shadow: 2px 2px 5px #008000;
         }
         ul {
             list-style-type: none;
@@ -20,15 +20,15 @@
             margin: 10px 0;
         }
         a {
-            color: #fff; /* สีตัวหนังสือ */
+            color: #fff;
             text-decoration: none;
             padding: 10px 20px;
-            background-color: #008000; /* สีเขียว */
+            background-color: #008000;
             border-radius: 10px;
             transition: all 0.3s;
         }
         a:hover {
-            background-color: #ff0000; /* เปลี่ยนเป็นสีแดงเมื่อชี้ */
+            background-color: #ff0000;
             color: #fff;
             box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.7);
         }
