@@ -1,54 +1,53 @@
         body {
-            background-color: #000; 
-            color: #fff; 
+            background: linear-gradient(145deg, #fffbf0, #f5deb3);
             font-family: 'Arial', sans-serif;
+            color: #444; 
             text-align: center;
             margin: 0;
             padding: 0;
         }
         h1 {
             font-size: 2.5em;
-            color: #ff0000; /* สีแดง */
-            margin: 20px 0;
-            text-shadow: 3px 3px 8px #008000; 
+            color: #d62828;
+            margin-top: 20px;
+            text-shadow: 3px 3px 8px #34a853; 
         }
         .content {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 3px solid #ff0000; 
+            margin: 30px auto;
+            padding: 30px;
+            border: 5px solid #34a853; 
             border-radius: 15px;
-            background: linear-gradient(145deg, #111, #222); 
-            box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.5), 
-                        0px 0px 20px 5px rgba(0, 128, 0, 0.5); 
+            background: linear-gradient(145deg, #fff, #f7f3e8); 
+            box-shadow: 0px 0px 15px rgba(52, 168, 83, 0.5), 
+                        0px 0px 15px rgba(214, 40, 40, 0.5);
         }
         ul {
             list-style-type: none;
             padding: 0;
-            margin: 20px 0;
+            margin: 30px 0;
         }
         li {
-            margin: 15px 0;
+            margin: 20px 0; 
         }
         a {
             color: #fff; 
             text-decoration: none;
-            padding: 10px 30px;
-            background: linear-gradient(145deg, #008000, #006400);
-            border: 2px solid #fff; 
-            border-radius: 20px;
+            padding: 15px 40px; 
+            background: linear-gradient(145deg, #34a853, #1b7f41); 
+            border: 2px solid #d62828; 
+            border-radius: 25px;
             font-size: 1.2em;
-            transition: all 0.3s;
+            transition: all 0.3s ease-in-out;
             display: inline-block;
         }
         a:hover {
-            background: linear-gradient(145deg, #ff0000, #800000);
-            color: #fff;
-            transform: scale(1.1);
-            box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.7);
+            background: linear-gradient(145deg, #d62828, #960c0c); 
+            transform: translateY(-5px) scale(1.1); 
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
         }
         footer {
-            margin-top: 30px;
+            margin-top: 40px;
             font-size: 1em;
-            color: #aaa;
+            color: #555;
         }
